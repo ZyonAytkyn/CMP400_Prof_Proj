@@ -12,15 +12,18 @@
 #include "Animation/AnimInstance.h"
 #include "Engine/LocalPlayer.h"
 #include "Engine/World.h"
+#include "Logging/StructuredLog.h"
 
 // Sets default values for this component's properties
 UTP_WeaponComponent::UTP_WeaponComponent()
 {
 	// Default offset from the character location for projectiles to spawn
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
-	if (GEngine) {
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Message test"));
-	}
+
+	AActor* owner = GetAttachParentActor();
+
+	 //UE_LOG(LogTemp, Warning, TEXT("Hello %s"), *owner->GetActorNameOrLabel());
+	UE_LOG(LogTemp, Warning, TEXT("Hello"));
 }
 
 
@@ -72,6 +75,10 @@ void UTP_WeaponComponent::Fire()
 bool UTP_WeaponComponent::AttachWeapon(ACMP400_Prof_ProjCharacter* TargetCharacter)
 {
 	Character = TargetCharacter;
+
+	//UE_LOGFMT(LogTemp, Log, "Printing my Name with Value");
+	//UE_LOG(LogTemp, Display, TEXT("Hello"));
+	//UE_LOG(LogTemp, Warning, TEXT("Hello %s"), *Character->GetActorNameOrLabel());
 
 	// Check that the character is valid, and has no weapon component yet
 	if (Character == nullptr || Character->GetInstanceComponents().FindItemByClass<UTP_WeaponComponent>())
