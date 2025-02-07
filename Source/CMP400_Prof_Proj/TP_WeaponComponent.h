@@ -6,6 +6,8 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "TP_WeaponComponent.generated.h"
 
+DECLARE_LOG_CATEGORY_EXTERN(LogWeaponComponent, Log, All);
+
 class ACMP400_Prof_ProjCharacter;
 
 UCLASS(Blueprintable, BlueprintType, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -50,6 +52,9 @@ public:
 	void Fire();
 
 protected:
+	UFUNCTION()
+	virtual void BeginPlay() override;
+
 	/** Ends gameplay for this component. */
 	UFUNCTION()
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;

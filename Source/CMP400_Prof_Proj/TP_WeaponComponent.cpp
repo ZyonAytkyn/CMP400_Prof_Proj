@@ -14,17 +14,16 @@
 #include "Engine/World.h"
 #include "Logging/StructuredLog.h"
 
+DEFINE_LOG_CATEGORY(LogWeaponComponent);
+
 // Sets default values for this component's properties
 UTP_WeaponComponent::UTP_WeaponComponent()
 {
 	// Default offset from the character location for projectiles to spawn
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
-
-	AActor* owner = GetAttachParentActor();
-
-	 //UE_LOG(LogTemp, Warning, TEXT("Hello %s"), *owner->GetActorNameOrLabel());
-	UE_LOG(LogTemp, Warning, TEXT("Hello"));
 }
+
+
 
 
 void UTP_WeaponComponent::Fire()
@@ -69,6 +68,27 @@ void UTP_WeaponComponent::Fire()
 		{
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
+	}
+}
+
+void UTP_WeaponComponent::BeginPlay()
+{
+	Super::BeginPlay();
+
+	USceneComponent* owner = GetAttachParent();
+	FString ownerString = "No Name";
+
+	if (owner != nullptr) {
+		ownerString = owner->GetName();
+		if (IsNetMode(NM_Client) && !IsNetMode(NM_ListenServer)) {
+			UE_LOG(LogWeaponComponent, Warning, TEXT("CLIENT - OWNER %s"), *ownerString);
+		}
+		if (IsNetMode(NM_ListenServer)) {
+			UE_LOG(LogWeaponComponent, Warning, TEXT("LISTEN SERVER - OWNER %s"), *ownerString);
+		}
+	}
+	else {
+		UE_LOG(LogTemp, Warning, TEXT("OWNER NULLPTR"));
 	}
 }
 
