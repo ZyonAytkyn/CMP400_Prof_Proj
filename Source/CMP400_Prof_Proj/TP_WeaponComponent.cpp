@@ -23,9 +23,6 @@ UTP_WeaponComponent::UTP_WeaponComponent()
 	MuzzleOffset = FVector(100.0f, 0.0f, 10.0f);
 }
 
-
-
-
 void UTP_WeaponComponent::Fire()
 {
 	if (Character == nullptr || Character->GetController() == nullptr)
@@ -58,6 +55,9 @@ void UTP_WeaponComponent::Fire()
 	//{
 	//	UGameplayStatics::PlaySoundAtLocation(this, FireSound, Character->GetActorLocation());
 	//}
+
+	//TODO Convert RPC_Shoot to C++
+	UE_LOG(LogWeaponComponent, Warning, TEXT("FIRE"));
 	
 	// Try and play a firing animation if specified
 	if (FireAnimation != nullptr)
@@ -75,16 +75,18 @@ void UTP_WeaponComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	USceneComponent* owner = GetAttachParent();
-	FString ownerString = "No Name";
+	USceneComponent* attachParent = GetAttachParent();
+	FString attachParentString = "No Name";
 
-	if (owner != nullptr) {
-		ownerString = owner->GetName();
+	owner = GetOwner();
+
+	if (attachParent != nullptr) {
+		attachParentString = attachParent->GetName();
 		if (IsNetMode(NM_Client) && !IsNetMode(NM_ListenServer)) {
-			UE_LOG(LogWeaponComponent, Warning, TEXT("CLIENT - OWNER %s"), *ownerString);
+			UE_LOG(LogWeaponComponent, Warning, TEXT("CLIENT - OWNER %s"), *attachParentString);
 		}
 		if (IsNetMode(NM_ListenServer)) {
-			UE_LOG(LogWeaponComponent, Warning, TEXT("LISTEN SERVER - OWNER %s"), *ownerString);
+			UE_LOG(LogWeaponComponent, Warning, TEXT("LISTEN SERVER - OWNER %s"), *attachParentString);
 		}
 	}
 	else {
