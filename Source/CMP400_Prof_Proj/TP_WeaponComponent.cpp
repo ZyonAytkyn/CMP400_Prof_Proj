@@ -13,6 +13,9 @@
 #include "Engine/LocalPlayer.h"
 #include "Engine/World.h"
 #include "Logging/StructuredLog.h"
+#include "Camera/CameraComponent.h"
+#include "Engine/HitResult.h" //Might not need this idk
+#include "DrawDebugHelpers.h"
 
 DEFINE_LOG_CATEGORY(LogWeaponComponent);
 
@@ -57,7 +60,23 @@ void UTP_WeaponComponent::Fire()
 	//}
 
 	//TODO Convert RPC_Shoot to C++
-	UE_LOG(LogWeaponComponent, Warning, TEXT("FIRE"));
+	//UE_LOG(LogWeaponComponent, Warning, TEXT("FIRE"));
+
+	if (IsNetMode(NM_ListenServer)) {
+		UCameraComponent* camRef = Character->GetFirstPersonCameraComponent();
+		FVector startPos = camRef->GetComponentLocation();
+		FVector endPos = startPos + (camRef->GetForwardVector() * weaponRange);
+
+		FHitResult hitResult;
+		FCollisionQueryParams collisionParams;
+		collisionParams.AddIgnoredActor(Character);
+
+		if (GetWorld()->LineTraceSingleByChannel(hitResult, startPos, endPos, ECollisionChannel::ECC_Visibility, FCollisionQueryParams())) {
+			UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Actor: %s"), *hitResult.GetActor()->GetName());
+		}
+
+		DrawDebugLine(GetWorld(), startPos, endPos, FColor::Red, false, 5.0f);
+	}
 	
 	// Try and play a firing animation if specified
 	if (FireAnimation != nullptr)
@@ -79,8 +98,18 @@ void UTP_WeaponComponent::BeginPlay()
 	FString attachParentString = "No Name";
 
 	owner = GetOwner();
+	FString ownerString = "NO OWNER NAME";
 
-	if (attachParent != nullptr) {
+	Character = Cast<ACMP400_Prof_ProjCharacter>(owner);
+
+	if (Character) {
+		UE_LOG(LogWeaponComponent, Warning, TEXT("CAST SUCCESS"));
+	}
+	else {
+		UE_LOG(LogWeaponComponent, Warning, TEXT("CAST FAIL"));
+	}
+
+	/*if (attachParent != nullptr) {
 		attachParentString = attachParent->GetName();
 		if (IsNetMode(NM_Client) && !IsNetMode(NM_ListenServer)) {
 			UE_LOG(LogWeaponComponent, Warning, TEXT("CLIENT - OWNER %s"), *attachParentString);
@@ -91,7 +120,21 @@ void UTP_WeaponComponent::BeginPlay()
 	}
 	else {
 		UE_LOG(LogTemp, Warning, TEXT("OWNER NULLPTR"));
+	}*/
+
+	if (owner != nullptr) {
+		ownerString = owner->GetName();
+		if (IsNetMode(NM_Client) && !IsNetMode(NM_ListenServer)) {
+			//UE_LOG(LogWeaponComponent, Warning, TEXT("CLIENT - OWNER %s"), *ownerString);
+		}
+		if (IsNetMode(NM_ListenServer)) {
+			//UE_LOG(LogWeaponComponent, Warning, TEXT("LISTEN SERVER - OWNER %s"), *ownerString);
+		}
 	}
+	else {
+		//UE_LOG(LogWeaponComponent, Warning, TEXT("OWNER NULLPTR"));
+	}
+
 }
 
 bool UTP_WeaponComponent::AttachWeapon(ACMP400_Prof_ProjCharacter* TargetCharacter)

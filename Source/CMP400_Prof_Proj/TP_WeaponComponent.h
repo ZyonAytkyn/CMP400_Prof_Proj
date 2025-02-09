@@ -64,4 +64,5 @@ private:
 	ACMP400_Prof_ProjCharacter* Character;
 
 	AActor* owner;
+	float weaponRange = 2000;
 };
