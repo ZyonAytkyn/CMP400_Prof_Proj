@@ -62,20 +62,36 @@ void UTP_WeaponComponent::Fire()
 	//TODO Convert RPC_Shoot to C++
 	//UE_LOG(LogWeaponComponent, Warning, TEXT("FIRE"));
 
-	if (IsNetMode(NM_ListenServer)) {
-		UCameraComponent* camRef = Character->GetFirstPersonCameraComponent();
-		FVector startPos = camRef->GetComponentLocation();
-		FVector endPos = startPos + (camRef->GetForwardVector() * weaponRange);
+	UCameraComponent* camRef = Character->GetFirstPersonCameraComponent();
+	FVector startPos = camRef->GetComponentLocation();
+	FVector endPos = startPos + (camRef->GetForwardVector() * weaponRange);
 
+	DrawDebugLine(GetWorld(), startPos, endPos, FColor::Red, false, 5.0f);
+
+	if (IsNetMode(NM_ListenServer)) {
 		FHitResult hitResult;
 		FCollisionQueryParams collisionParams;
 		collisionParams.AddIgnoredActor(Character);
 
 		if (GetWorld()->LineTraceSingleByChannel(hitResult, startPos, endPos, ECollisionChannel::ECC_Visibility, FCollisionQueryParams())) {
-			UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Actor: %s"), *hitResult.GetActor()->GetName());
-		}
+			//UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Actor: %s"), *hitResult.GetActor()->GetName());
+			//UClass* hitClass = hitResult.GetActor()->GetClass();
+			//FString hitClassName = hitClass->GetName();
+			//UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Actor: %s"), *hitClassName);
 
-		DrawDebugLine(GetWorld(), startPos, endPos, FColor::Red, false, 5.0f);
+			if (hitResult.GetActor()->GetClass() == Character->GetClass()) {
+				UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Character"));
+				hitCharacter = Cast<ACMP400_Prof_ProjCharacter>(hitResult.GetActor());
+
+				if (hitCharacter) {
+					UE_LOG(LogWeaponComponent, Warning, TEXT("HIT CAST SUCCESS"));
+					hitCharacter->Damage(10);
+				}
+				else {
+					UE_LOG(LogWeaponComponent, Warning, TEXT("HIT CAST FAIL"));
+				}
+			}
+		}
 	}
 	
 	// Try and play a firing animation if specified

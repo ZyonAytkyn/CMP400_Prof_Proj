@@ -36,6 +36,9 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 	/** Move Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
 	UInputAction* MoveAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	float Health = 100;
 	
 public:
 	ACMP400_Prof_ProjCharacter();
@@ -67,5 +70,8 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	float GetHealth();
+	void Damage(float damage);
+	void OnDeath();
 };
 

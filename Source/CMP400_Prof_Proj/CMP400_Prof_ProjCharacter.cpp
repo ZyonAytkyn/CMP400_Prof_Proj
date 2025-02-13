@@ -10,6 +10,8 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "Engine/LocalPlayer.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameFramework/PlayerStart.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -65,6 +67,34 @@ void ACMP400_Prof_ProjCharacter::SetupPlayerInputComponent(UInputComponent* Play
 	{
 		UE_LOG(LogTemplateCharacter, Error, TEXT("'%s' Failed to find an Enhanced Input Component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."), *GetNameSafe(this));
 	}
+}
+
+float ACMP400_Prof_ProjCharacter::GetHealth()
+{
+	return Health;
+}
+
+void ACMP400_Prof_ProjCharacter::Damage(float damage)
+{
+	Health -= damage;
+	UE_LOG(LogTemplateCharacter, Warning, TEXT("Hit Actor: %f"), Health);
+	if (Health <= 0)
+	{
+		OnDeath();
+	}
+}
+
+void ACMP400_Prof_ProjCharacter::OnDeath()
+{
+	//GET ALL PLAYER START
+	//SELECT RANDOM FROM ARRAY
+	//TELEPORT PLAYER TO SELECTED LOCATION
+	/*APlayerStart* playerStarts[3];
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), APlayerStart::StaticClass(), (TArray<AActor*>&)playerStarts);
+	int random = FMath::RandRange(0, 2);
+	SetActorLocation(playerStarts[random]->GetActorLocation());
+	Health = 100;*/
+	UE_LOG(LogTemplateCharacter, Warning, TEXT("YOU ARE DEAD"))
 }
 
 

@@ -62,6 +62,7 @@ protected:
 private:
 	/** The Character holding this weapon*/
 	ACMP400_Prof_ProjCharacter* Character;
+	ACMP400_Prof_ProjCharacter* hitCharacter;
 
 	AActor* owner;
 	float weaponRange = 2000;
