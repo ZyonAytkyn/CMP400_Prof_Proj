@@ -13,6 +13,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/PlayerStart.h"
 #include <Net/UnrealNetwork.h>
+#include "Misc/OutputDeviceNull.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -98,6 +99,9 @@ void ACMP400_Prof_ProjCharacter::Damage(float damage)
 	UE_LOG(LogTemplateCharacter, Warning, TEXT("Hit Actor: %f"), Health);
 	if (Health <= 0)
 	{
+		FOutputDeviceNull ar;
+		this->CallFunctionByNameWithArguments(TEXT("Death_BP"), ar, NULL, true);
+
 		OnDeath();
 	}
 }

@@ -42,7 +42,9 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 
 	TArray<AActor*> playerStarts;
 
-	
+	//UPROPERTY(EditAnywhere)
+
+
 public:
 	ACMP400_Prof_ProjCharacter();
 
