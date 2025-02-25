@@ -68,12 +68,12 @@ void UTP_WeaponComponent::Fire()
 
 	DrawDebugLine(GetWorld(), startPos, endPos, FColor::Red, false, 5.0f);
 
-	if (IsNetMode(NM_ListenServer)) {
+	if (owner->HasAuthority()) {
 		FHitResult hitResult;
 		FCollisionQueryParams collisionParams;
 		collisionParams.AddIgnoredActor(Character);
 
-		if (GetWorld()->LineTraceSingleByChannel(hitResult, startPos, endPos, ECollisionChannel::ECC_Visibility, FCollisionQueryParams())) {
+		if (GetWorld()->LineTraceSingleByChannel(hitResult, startPos, endPos, ECollisionChannel::ECC_Visibility, collisionParams)) {
 			//UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Actor: %s"), *hitResult.GetActor()->GetName());
 			//UClass* hitClass = hitResult.GetActor()->GetClass();
 			//FString hitClassName = hitClass->GetName();
@@ -93,6 +93,9 @@ void UTP_WeaponComponent::Fire()
 			}
 		}
 	}
+	else {
+		FireServer(startPos, endPos);
+	}
 	
 	// Try and play a firing animation if specified
 	if (FireAnimation != nullptr)
@@ -102,6 +105,33 @@ void UTP_WeaponComponent::Fire()
 		if (AnimInstance != nullptr)
 		{
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
+		}
+	}
+}
+
+void UTP_WeaponComponent::FireServer_Implementation(FVector StartPos, FVector EndPos)
+{
+	FHitResult hitResult;
+	FCollisionQueryParams collisionParams;
+	collisionParams.AddIgnoredActor(Character);
+
+	if (GetWorld()->LineTraceSingleByChannel(hitResult, StartPos, EndPos, ECollisionChannel::ECC_Visibility, collisionParams)) {
+		//UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Actor: %s"), *hitResult.GetActor()->GetName());
+		//UClass* hitClass = hitResult.GetActor()->GetClass();
+		//FString hitClassName = hitClass->GetName();
+		//UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Actor: %s"), *hitClassName);
+
+		if (hitResult.GetActor()->GetClass() == Character->GetClass()) {
+			UE_LOG(LogWeaponComponent, Warning, TEXT("Hit Character"));
+			hitCharacter = Cast<ACMP400_Prof_ProjCharacter>(hitResult.GetActor());
+
+			if (hitCharacter) {
+				UE_LOG(LogWeaponComponent, Warning, TEXT("HIT CAST SUCCESS"));
+				hitCharacter->Damage(10);
+			}
+			else {
+				UE_LOG(LogWeaponComponent, Warning, TEXT("HIT CAST FAIL"));
+			}
 		}
 	}
 }

@@ -51,6 +51,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category="Weapon")
 	void Fire();
 
+	UFUNCTION(Server, Reliable)
+	void FireServer(FVector StartPos, FVector EndPos);
+
 protected:
 	UFUNCTION()
 	virtual void BeginPlay() override;

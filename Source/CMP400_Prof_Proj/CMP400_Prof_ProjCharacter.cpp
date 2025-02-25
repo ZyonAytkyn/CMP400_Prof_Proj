@@ -44,6 +44,9 @@ void ACMP400_Prof_ProjCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), APlayerStart::StaticClass(), playerStarts);
+	int i = 0;
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -74,6 +77,20 @@ float ACMP400_Prof_ProjCharacter::GetHealth()
 	return Health;
 }
 
+void ACMP400_Prof_ProjCharacter::OnDeath()
+{
+	//GET ALL PLAYER START
+	//SELECT RANDOM FROM ARRAY
+	//TELEPORT PLAYER TO SELECTED LOCATION
+
+	int random = FMath::RandRange(0, 2);
+	SetActorLocation(playerStarts[random]->GetActorLocation());
+
+	//SetActorLocation(GetActorLocation() + 100);
+	Health = 100;
+	UE_LOG(LogTemplateCharacter, Warning, TEXT("YOU ARE DEAD"));
+}
+
 void ACMP400_Prof_ProjCharacter::Damage(float damage)
 {
 	Health -= damage;
@@ -82,19 +99,6 @@ void ACMP400_Prof_ProjCharacter::Damage(float damage)
 	{
 		OnDeath();
 	}
-}
-
-void ACMP400_Prof_ProjCharacter::OnDeath()
-{
-	//GET ALL PLAYER START
-	//SELECT RANDOM FROM ARRAY
-	//TELEPORT PLAYER TO SELECTED LOCATION
-	/*APlayerStart* playerStarts[3];
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), APlayerStart::StaticClass(), (TArray<AActor*>&)playerStarts);
-	int random = FMath::RandRange(0, 2);
-	SetActorLocation(playerStarts[random]->GetActorLocation());
-	Health = 100;*/
-	UE_LOG(LogTemplateCharacter, Warning, TEXT("YOU ARE DEAD"))
 }
 
 

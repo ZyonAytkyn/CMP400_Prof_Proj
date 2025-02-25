@@ -39,6 +39,9 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	float Health = 100;
+
+	TArray<AActor*> playerStarts;
+
 	
 public:
 	ACMP400_Prof_ProjCharacter();
@@ -70,8 +73,13 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	//UFUNCTION(Server, Reliable)
 	float GetHealth();
-	void Damage(float damage);
+
+	//UFUNCTION(Server, Reliable)
 	void OnDeath();
+
+	//UFUNCTION(Server, Reliable)
+	void Damage(float damage);
 };
 
