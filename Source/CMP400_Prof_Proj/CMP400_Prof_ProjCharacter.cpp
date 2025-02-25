@@ -12,6 +12,7 @@
 #include "Engine/LocalPlayer.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/PlayerStart.h"
+#include <Net/UnrealNetwork.h>
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -126,4 +127,10 @@ void ACMP400_Prof_ProjCharacter::Look(const FInputActionValue& Value)
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
+}
+
+void ACMP400_Prof_ProjCharacter::GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	DOREPLIFETIME(ACMP400_Prof_ProjCharacter, Health);
 }
