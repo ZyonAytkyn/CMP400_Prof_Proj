@@ -100,7 +100,7 @@ void ACMP400_Prof_ProjCharacter::Damage(float damage)
 	if (Health <= 0)
 	{
 		FOutputDeviceNull ar;
-		this->CallFunctionByNameWithArguments(TEXT("Death_BP"), ar, NULL, true);
+		this->CallFunctionByNameWithArguments(TEXT("Dead_BP"), ar, NULL, true);
 
 		OnDeath();
 	}
