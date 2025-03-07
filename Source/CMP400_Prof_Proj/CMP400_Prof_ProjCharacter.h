@@ -7,6 +7,8 @@
 #include "Logging/LogMacros.h"
 #include "CMP400_Prof_ProjCharacter.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnAttributeChanged, int, team);
+
 class UInputComponent;
 class USkeletalMeshComponent;
 class UCameraComponent;
@@ -42,8 +44,21 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 
 	TArray<AActor*> playerStarts;
 
-	//UPROPERTY(EditAnywhere)
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	int playerTeam;
 
+	enum Team {
+		ServerTeam = 0,
+		ClientTeam = 1
+	};
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"), Replicated)
+	TArray<int> teamScore = TArray<int>{ 0,0 };
+
+public:
+	UPROPERTY(BlueprintAssignable, Category = "Attributes")
+	FOnAttributeChanged OnScoreChange;
 
 public:
 	ACMP400_Prof_ProjCharacter();

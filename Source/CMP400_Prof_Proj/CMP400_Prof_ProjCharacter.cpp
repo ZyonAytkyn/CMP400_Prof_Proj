@@ -48,7 +48,18 @@ void ACMP400_Prof_ProjCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), APlayerStart::StaticClass(), playerStarts);
-	int i = 0;
+	
+	//TODO FIX THIS WHAT IS HAPPENING HIT THE THING AAAAAAAAAAAAAAAAA
+	/*if (IsNetMode(NM_ListenServer)) {
+		playerTeam = ServerTeam;
+		UE_LOG(LogTemplateCharacter, Warning, TEXT("SERVER TEAM: %f"), static_cast<float>(playerTeam));
+	}
+	if (IsNetMode(NM_Client)) {
+		playerTeam = ClientTeam;
+		UE_LOG(LogTemplateCharacter, Warning, TEXT("CLIENT TEAM: %f"), static_cast<float>(playerTeam));
+	}*/
+
+
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -90,17 +101,25 @@ void ACMP400_Prof_ProjCharacter::OnDeath()
 
 	//SetActorLocation(GetActorLocation() + 100);
 	Health = 100;
-	UE_LOG(LogTemplateCharacter, Warning, TEXT("YOU ARE DEAD"));
+	//UE_LOG(LogTemplateCharacter, Warning, TEXT("YOU ARE DEAD"));
 }
 
 void ACMP400_Prof_ProjCharacter::Damage(float damage)
 {
 	Health -= damage;
-	UE_LOG(LogTemplateCharacter, Warning, TEXT("Hit Actor: %f"), Health);
+	//UE_LOG(LogTemplateCharacter, Warning, TEXT("Hit Actor: %f"), Health);
 	if (Health <= 0)
 	{
+		/* Kill feed stuff, low priority
 		FOutputDeviceNull ar;
-		this->CallFunctionByNameWithArguments(TEXT("Dead_BP"), ar, NULL, true);
+		this->CallFunctionByNameWithArguments(TEXT("Dead_BP"), ar, NULL, true);*/
+
+		if (playerTeam == ServerTeam) {
+			OnScoreChange.Broadcast(1);
+		}
+		if (playerTeam == ClientTeam) {
+			OnScoreChange.Broadcast(0);
+		}
 
 		OnDeath();
 	}
@@ -137,4 +156,5 @@ void ACMP400_Prof_ProjCharacter::GetLifetimeReplicatedProps(TArray< FLifetimePro
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ACMP400_Prof_ProjCharacter, Health);
+	DOREPLIFETIME(ACMP400_Prof_ProjCharacter, teamScore);
 }
