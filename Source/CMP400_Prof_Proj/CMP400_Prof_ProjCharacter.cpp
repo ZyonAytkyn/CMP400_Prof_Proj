@@ -47,19 +47,16 @@ void ACMP400_Prof_ProjCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), APlayerStart::StaticClass(), playerStarts);
+	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Server"), serverStarts);
+	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Client"), clientStarts);
 	
-	//TODO FIX THIS WHAT IS HAPPENING HIT THE THING AAAAAAAAAAAAAAAAA
-	/*if (IsNetMode(NM_ListenServer)) {
-		playerTeam = ServerTeam;
-		UE_LOG(LogTemplateCharacter, Warning, TEXT("SERVER TEAM: %f"), static_cast<float>(playerTeam));
+	/*int random = FMath::RandRange(0, 2);
+	if (playerTeam == ServerTeam) {
+		SetActorLocation(serverStarts[random]->GetActorLocation());
 	}
-	if (IsNetMode(NM_Client)) {
-		playerTeam = ClientTeam;
-		UE_LOG(LogTemplateCharacter, Warning, TEXT("CLIENT TEAM: %f"), static_cast<float>(playerTeam));
+	if (playerTeam == ClientTeam) {
+		SetActorLocation(clientStarts[random]->GetActorLocation());
 	}*/
-
-
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -97,7 +94,12 @@ void ACMP400_Prof_ProjCharacter::OnDeath()
 	//TELEPORT PLAYER TO SELECTED LOCATION
 
 	int random = FMath::RandRange(0, 2);
-	SetActorLocation(playerStarts[random]->GetActorLocation());
+	if (playerTeam == ServerTeam) {
+		SetActorLocation(serverStarts[random]->GetActorLocation());
+	}
+	if (playerTeam == ClientTeam) {
+		SetActorLocation(clientStarts[random]->GetActorLocation());
+	}
 
 	//SetActorLocation(GetActorLocation() + 100);
 	Health = 100;

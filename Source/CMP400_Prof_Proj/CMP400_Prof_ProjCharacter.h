@@ -42,7 +42,8 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"), Replicated)
 	float Health = 100;
 
-	TArray<AActor*> playerStarts;
+	TArray<AActor*> serverStarts;
+	TArray<AActor*> clientStarts;
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
