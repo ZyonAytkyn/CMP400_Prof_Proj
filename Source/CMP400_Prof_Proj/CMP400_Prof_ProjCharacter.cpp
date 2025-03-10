@@ -50,6 +50,10 @@ void ACMP400_Prof_ProjCharacter::BeginPlay()
 	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Server"), serverStarts);
 	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Client"), clientStarts);
 	
+
+	FTimerHandle Handle;
+	GetWorld()->GetTimerManager().SetTimer(Handle, this, &ACMP400_Prof_ProjCharacter::respawnPlayer, 1.f, false);
+
 	/*int random = FMath::RandRange(0, 2);
 	if (playerTeam == ServerTeam) {
 		SetActorLocation(serverStarts[random]->GetActorLocation());
@@ -93,13 +97,14 @@ void ACMP400_Prof_ProjCharacter::OnDeath()
 	//SELECT RANDOM FROM ARRAY
 	//TELEPORT PLAYER TO SELECTED LOCATION
 
-	int random = FMath::RandRange(0, 2);
+	/*int random = FMath::RandRange(0, 2);
 	if (playerTeam == ServerTeam) {
 		SetActorLocation(serverStarts[random]->GetActorLocation());
 	}
 	if (playerTeam == ClientTeam) {
 		SetActorLocation(clientStarts[random]->GetActorLocation());
-	}
+	}*/
+	respawnPlayer();
 
 	//SetActorLocation(GetActorLocation() + 100);
 	Health = 100;
@@ -124,6 +129,17 @@ void ACMP400_Prof_ProjCharacter::Damage(float damage)
 		}
 
 		OnDeath();
+	}
+}
+
+void ACMP400_Prof_ProjCharacter::respawnPlayer()
+{
+	int random = FMath::RandRange(0, 2);
+	if (playerTeam == ServerTeam) {
+		SetActorLocation(serverStarts[random]->GetActorLocation());
+	}
+	if (playerTeam == ClientTeam) {
+		SetActorLocation(clientStarts[random]->GetActorLocation());
 	}
 }
 

@@ -99,5 +99,7 @@ public:
 
 	//UFUNCTION(Server, Reliable)
 	void Damage(float damage);
+
+	void respawnPlayer();
 };
 

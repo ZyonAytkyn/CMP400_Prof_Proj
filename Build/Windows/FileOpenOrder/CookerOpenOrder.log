@@ -843,245 +843,251 @@
 "../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uexp" 842
 "F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/MobileControls.uasset" 843
 "F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/MobileControls.uexp" 844
-"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.uasset" 845
-"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.uexp" 846
-"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.uasset" 847
-"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.uexp" 848
-"../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uasset" 849
-"../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uexp" 850
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 851
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uexp" 852
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 853
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uexp" 854
-"../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uasset" 855
-"../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uexp" 856
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.ubulk" 857
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset" 858
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uexp" 859
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.ubulk" 860
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset" 861
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uexp" 862
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset" 863
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uexp" 864
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Cube.ubulk" 865
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Cube.uasset" 866
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Cube.uexp" 867
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/M_Solid.uasset" 868
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/M_Solid.uexp" 869
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/MI_Solid_Blue.uasset" 870
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/MI_Solid_Blue.uexp" 871
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_ChamferCube.ubulk" 872
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset" 873
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_ChamferCube.uexp" 874
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Ramp.ubulk" 875
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Ramp.uasset" 876
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Ramp.uexp" 877
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Shoot.uasset" 878
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Shoot.uexp" 879
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/IMC_Weapons.uasset" 880
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/IMC_Weapons.uexp" 881
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" 882
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uexp" 883
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.ubulk" 884
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 885
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uexp" 886
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_N.ubulk" 887
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_N.uasset" 888
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_N.uexp" 889
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 890
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uexp" 891
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 892
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uexp" 893
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.ubulk" 894
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 895
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uexp" 896
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset" 897
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_Screen.uexp" 898
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.ubulk" 899
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 900
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uexp" 901
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.ubulk" 902
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 903
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uexp" 904
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 905
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uexp" 906
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 907
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uexp" 908
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_M.ubulk" 909
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_M.uasset" 910
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_M.uexp" 911
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 912
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uexp" 913
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 914
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uexp" 915
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/M_FPGun.uasset" 916
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/M_FPGun.uexp" 917
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun_Physics.uasset" 918
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun_Physics.uexp" 919
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun.uasset" 920
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun.uexp" 921
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Audio/FirstPersonTemplateWeaponFire02.ubulk" 922
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Audio/FirstPersonTemplateWeaponFire02.uasset" 923
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Audio/FirstPersonTemplateWeaponFire02.uexp" 924
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/BaseMaterial.uasset" 925
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/BaseMaterial.uexp" 926
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/FirstPersonProjectileMaterial.uasset" 927
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/FirstPersonProjectileMaterial.uexp" 928
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/FirstPersonProjectileMesh.ubulk" 929
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/FirstPersonProjectileMesh.uasset" 930
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/FirstPersonProjectileMesh.uexp" 931
-"../../../Engine/Content/EditorBlueprintResources/ActorComponentMacros.uasset" 932
-"../../../Engine/Content/EditorBlueprintResources/ActorComponentMacros.uexp" 933
-"../../../Engine/Content/BasicShapes/Sphere.ubulk" 934
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 935
-"../../../Engine/Content/BasicShapes/Sphere.uexp" 936
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Look.uasset" 937
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Look.uexp" 938
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_N.ubulk" 939
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_N.uasset" 940
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_N.uexp" 941
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_BN.ubulk" 942
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_BN.uasset" 943
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_BN.uexp" 944
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.ubulk" 945
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset" 946
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uexp" 947
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.ubulk" 948
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset" 949
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uexp" 950
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.ubulk" 951
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset" 952
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uexp" 953
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_Tan.ubulk" 954
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_Tan.uasset" 955
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_Tan.uexp" 956
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_BN.ubulk" 957
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_BN.uasset" 958
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_BN.uexp" 959
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_MSR_MSK.ubulk" 960
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_MSR_MSK.uasset" 961
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_MSR_MSK.uexp" 962
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_N.ubulk" 963
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_N.uasset" 964
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_N.uexp" 965
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_D.ubulk" 966
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_D.uasset" 967
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_D.uexp" 968
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/ChromaticCurve.uasset" 969
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/ChromaticCurve.uexp" 970
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/CA_Mannequin.uasset" 971
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/CA_Mannequin.uexp" 972
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/MF_Diffraction.uasset" 973
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/MF_Diffraction.uexp" 974
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset" 975
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uexp" 976
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Shared/T_UE_Logo_M.uasset" 977
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Shared/T_UE_Logo_M.uexp" 978
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/MF_logo3layers.uasset" 979
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/MF_logo3layers.uexp" 980
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/ML_BaseColorFallOff.uasset" 981
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/ML_BaseColorFallOff.uexp" 982
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/M_Mannequin.uasset" 983
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/M_Mannequin.uexp" 984
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Instances/Manny/MI_Manny_01.uasset" 985
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Instances/Manny/MI_Manny_01.uexp" 986
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.ubulk" 987
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset" 988
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uexp" 989
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_MSR_MSK.ubulk" 990
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_MSR_MSK.uasset" 991
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_MSR_MSK.uexp" 992
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_D.ubulk" 993
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_D.uasset" 994
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_D.uexp" 995
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_Tan.ubulk" 996
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_Tan.uasset" 997
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_Tan.uexp" 998
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Instances/Manny/MI_Manny_02.uasset" 999
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Instances/Manny/MI_Manny_02.uexp" 1000
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 1001
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uexp" 1002
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 1003
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uexp" 1004
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms.uasset" 1005
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms.uexp" 1006
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/BP_WeaponComponent.uasset" 1007
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/BP_WeaponComponent.uexp" 1008
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Move.uasset" 1009
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Move.uexp" 1010
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 1011
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uexp" 1012
-"../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset" 1013
-"../../../Engine/Content/EditorBlueprintResources/ActorMacros.uexp" 1014
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 1015
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uexp" 1016
-"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 1017
-"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uexp" 1018
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Idle.uasset" 1019
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Idle.uexp" 1020
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Land.uasset" 1021
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Land.uexp" 1022
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Run.uasset" 1023
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Run.uexp" 1024
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Falling.uasset" 1025
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Falling.uexp" 1026
-"../../../Engine/Content/Animation/DefaultRecorderBoneCompression.uasset" 1027
-"../../../Engine/Content/Animation/DefaultRecorderBoneCompression.uexp" 1028
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Idle.uasset" 1029
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Idle.uexp" 1030
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Jump.uasset" 1031
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Jump.uexp" 1032
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Run_Fwd.uasset" 1033
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Run_Fwd.uexp" 1034
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Land.uasset" 1035
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Land.uexp" 1036
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Falling.uasset" 1037
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Falling.uexp" 1038
-"../../../Engine/Content/Animation/DefaultVariableFrameStrippingSettings.uasset" 1039
-"../../../Engine/Content/Animation/DefaultVariableFrameStrippingSettings.uexp" 1040
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Jump.uasset" 1041
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Jump.uexp" 1042
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FirstPerson_AnimBP.uasset" 1043
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FirstPerson_AnimBP.uexp" 1044
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Jump.uasset" 1045
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Jump.uexp" 1046
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" 1047
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uexp" 1048
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/AC_Health.uasset" 1049
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/AC_Health.uexp" 1050
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset" 1051
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uexp" 1052
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Fire.uasset" 1053
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Fire.uexp" 1054
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Shoot_Montage.uasset" 1055
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Shoot_Montage.uexp" 1056
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uasset" 1057
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uexp" 1058
-"../../../Engine/Content/EngineSky/T_Sky_Stars.ubulk" 1059
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 1060
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uexp" 1061
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.ubulk" 1062
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 1063
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uexp" 1064
-"../../../Engine/Content/EngineSky/T_Sky_Blue.ubulk" 1065
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 1066
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uexp" 1067
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 1068
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uexp" 1069
-"../../../Engine/Content/EngineSky/SM_SkySphere.ubulk" 1070
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 1071
-"../../../Engine/Content/EngineSky/SM_SkySphere.uexp" 1072
-"../../../Engine/Content/EngineSky/M_SimpleSkyDome.uasset" 1073
-"../../../Engine/Content/EngineSky/M_SimpleSkyDome.uexp" 1074
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1075
-"../../../Engine/Content/Maps/Entry_BuiltData.uexp" 1076
-"../../../Engine/Content/Maps/Entry.uexp" 1077
-"../../../Engine/Content/Maps/Entry.umap" 1078
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/IMC_Default.uasset" 1079
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/IMC_Default.uexp" 1080
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonPlayerController.uasset" 1081
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonPlayerController.uexp" 1082
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset" 1083
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uexp" 1084
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Maps/FirstPersonMap.uexp" 1085
-"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Maps/FirstPersonMap.umap" 1086
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Shoot.uasset" 845
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Shoot.uexp" 846
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/IMC_Weapons.uasset" 847
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/IMC_Weapons.uexp" 848
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset" 849
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uexp" 850
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.ubulk" 851
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 852
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uexp" 853
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_N.ubulk" 854
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_N.uasset" 855
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_N.uexp" 856
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 857
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uexp" 858
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 859
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uexp" 860
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.ubulk" 861
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 862
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uexp" 863
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset" 864
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_Screen.uexp" 865
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.ubulk" 866
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 867
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uexp" 868
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.ubulk" 869
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 870
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uexp" 871
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 872
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uexp" 873
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 874
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uexp" 875
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_M.ubulk" 876
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_M.uasset" 877
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Textures/T_FPGun_M.uexp" 878
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 879
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uexp" 880
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 881
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uexp" 882
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/M_FPGun.uasset" 883
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/M_FPGun.uexp" 884
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun_Physics.uasset" 885
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun_Physics.uexp" 886
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun.uasset" 887
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/SK_FPGun.uexp" 888
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Audio/FirstPersonTemplateWeaponFire02.ubulk" 889
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Audio/FirstPersonTemplateWeaponFire02.uasset" 890
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Audio/FirstPersonTemplateWeaponFire02.uexp" 891
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/BaseMaterial.uasset" 892
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/BaseMaterial.uexp" 893
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/FirstPersonProjectileMaterial.uasset" 894
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/FirstPersonProjectileMaterial.uexp" 895
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/FirstPersonProjectileMesh.ubulk" 896
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/FirstPersonProjectileMesh.uasset" 897
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Mesh/FirstPersonProjectileMesh.uexp" 898
+"../../../Engine/Content/EditorBlueprintResources/ActorComponentMacros.uasset" 899
+"../../../Engine/Content/EditorBlueprintResources/ActorComponentMacros.uexp" 900
+"../../../Engine/Content/BasicShapes/Sphere.ubulk" 901
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 902
+"../../../Engine/Content/BasicShapes/Sphere.uexp" 903
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Look.uasset" 904
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Look.uexp" 905
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_N.ubulk" 906
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_N.uasset" 907
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_N.uexp" 908
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_BN.ubulk" 909
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_BN.uasset" 910
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_BN.uexp" 911
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.ubulk" 912
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset" 913
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uexp" 914
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.ubulk" 915
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset" 916
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uexp" 917
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.ubulk" 918
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset" 919
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uexp" 920
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_Tan.ubulk" 921
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_Tan.uasset" 922
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_Tan.uexp" 923
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_BN.ubulk" 924
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_BN.uasset" 925
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_BN.uexp" 926
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_MSR_MSK.ubulk" 927
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_MSR_MSK.uasset" 928
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_MSR_MSK.uexp" 929
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_N.ubulk" 930
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_N.uasset" 931
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_N.uexp" 932
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_D.ubulk" 933
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_D.uasset" 934
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_01_D.uexp" 935
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/ChromaticCurve.uasset" 936
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/ChromaticCurve.uexp" 937
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/CA_Mannequin.uasset" 938
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/CA_Mannequin.uexp" 939
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/MF_Diffraction.uasset" 940
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/MF_Diffraction.uexp" 941
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset" 942
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uexp" 943
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Shared/T_UE_Logo_M.uasset" 944
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Shared/T_UE_Logo_M.uexp" 945
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/MF_logo3layers.uasset" 946
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/MF_logo3layers.uexp" 947
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/ML_BaseColorFallOff.uasset" 948
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Functions/ML_BaseColorFallOff.uexp" 949
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/M_Mannequin.uasset" 950
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/M_Mannequin.uexp" 951
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Instances/Manny/MI_Manny_01.uasset" 952
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Instances/Manny/MI_Manny_01.uexp" 953
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.ubulk" 954
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset" 955
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uexp" 956
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_MSR_MSK.ubulk" 957
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_MSR_MSK.uasset" 958
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_MSR_MSK.uexp" 959
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_D.ubulk" 960
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_D.uasset" 961
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_D.uexp" 962
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_Tan.ubulk" 963
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_Tan.uasset" 964
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Textures/Manny/T_Manny_02_Tan.uexp" 965
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Instances/Manny/MI_Manny_02.uasset" 966
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Materials/Instances/Manny/MI_Manny_02.uexp" 967
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset" 968
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uexp" 969
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" 970
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uexp" 971
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms.uasset" 972
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms.uexp" 973
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/M_Solid.uasset" 974
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/M_Solid.uexp" 975
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/MI_Solid_Blue.uasset" 976
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/MI_Solid_Blue.uexp" 977
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/BP_WeaponComponent.uasset" 978
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/BP_WeaponComponent.uexp" 979
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Move.uasset" 980
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Move.uexp" 981
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 982
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uexp" 983
+"../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset" 984
+"../../../Engine/Content/EditorBlueprintResources/ActorMacros.uexp" 985
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 986
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uexp" 987
+"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 988
+"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uexp" 989
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Idle.uasset" 990
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Idle.uexp" 991
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Land.uasset" 992
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Land.uexp" 993
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Run.uasset" 994
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Run.uexp" 995
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Falling.uasset" 996
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Falling.uexp" 997
+"../../../Engine/Content/Animation/DefaultRecorderBoneCompression.uasset" 998
+"../../../Engine/Content/Animation/DefaultRecorderBoneCompression.uexp" 999
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Idle.uasset" 1000
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Idle.uexp" 1001
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Jump.uasset" 1002
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Jump.uexp" 1003
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Run_Fwd.uasset" 1004
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Run_Fwd.uexp" 1005
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Land.uasset" 1006
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Land.uexp" 1007
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Falling.uasset" 1008
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Falling.uexp" 1009
+"../../../Engine/Content/Animation/DefaultVariableFrameStrippingSettings.uasset" 1010
+"../../../Engine/Content/Animation/DefaultVariableFrameStrippingSettings.uexp" 1011
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Jump.uasset" 1012
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Jump.uexp" 1013
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FirstPerson_AnimBP.uasset" 1014
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FirstPerson_AnimBP.uexp" 1015
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/WBP_GamemodeHUD.uasset" 1016
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/WBP_GamemodeHUD.uexp" 1017
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Jump.uasset" 1018
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/Actions/IA_Jump.uexp" 1019
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" 1020
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uexp" 1021
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/AC_Health.uasset" 1022
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/AC_Health.uexp" 1023
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset" 1024
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uexp" 1025
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Fire.uasset" 1026
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Fire.uexp" 1027
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Shoot_Montage.uasset" 1028
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPersonArms/Animations/FP_Rifle_Shoot_Montage.uexp" 1029
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uasset" 1030
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_PickUp_Rifle.uexp" 1031
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 1032
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uexp" 1033
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 1034
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uexp" 1035
+"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.uasset" 1036
+"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.uexp" 1037
+"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.uasset" 1038
+"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.uexp" 1039
+"../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uasset" 1040
+"../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uexp" 1041
+"../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uasset" 1042
+"../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uexp" 1043
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.ubulk" 1044
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset" 1045
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uexp" 1046
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.ubulk" 1047
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset" 1048
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uexp" 1049
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset" 1050
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uexp" 1051
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Cube.ubulk" 1052
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Cube.uasset" 1053
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Cube.uexp" 1054
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_ChamferCube.ubulk" 1055
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset" 1056
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_ChamferCube.uexp" 1057
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Ramp.ubulk" 1058
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Ramp.uasset" 1059
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/LevelPrototyping/Meshes/SM_Ramp.uexp" 1060
+"../../../Engine/Content/EngineSky/T_Sky_Stars.ubulk" 1061
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 1062
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uexp" 1063
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.ubulk" 1064
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 1065
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uexp" 1066
+"../../../Engine/Content/EngineSky/T_Sky_Blue.ubulk" 1067
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 1068
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uexp" 1069
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 1070
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uexp" 1071
+"../../../Engine/Content/EngineSky/SM_SkySphere.ubulk" 1072
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 1073
+"../../../Engine/Content/EngineSky/SM_SkySphere.uexp" 1074
+"../../../Engine/Content/EngineSky/M_SimpleSkyDome.uasset" 1075
+"../../../Engine/Content/EngineSky/M_SimpleSkyDome.uexp" 1076
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1077
+"../../../Engine/Content/Maps/Entry_BuiltData.uexp" 1078
+"../../../Engine/Content/Maps/Entry.uexp" 1079
+"../../../Engine/Content/Maps/Entry.umap" 1080
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/WBP_PlayerHUD.uasset" 1081
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/WBP_PlayerHUD.uexp" 1082
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/NewHUD.uasset" 1083
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/NewHUD.uexp" 1084
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/IMC_Default.uasset" 1085
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Input/IMC_Default.uexp" 1086
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonPlayerController.uasset" 1087
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonPlayerController.uexp" 1088
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset" 1089
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uexp" 1090
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Maps/FirstPersonMap.uexp" 1091
+"F:/CMP400 - Prof Proj/CMP400_Prof_Proj/Content/FirstPerson/Maps/FirstPersonMap.umap" 1092
