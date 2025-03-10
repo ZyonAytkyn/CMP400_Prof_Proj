@@ -30,6 +30,7 @@ void ACMP400_Prof_ProjGameMode::updateScore(int team)
 void ACMP400_Prof_ProjGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+	GetWorld()->GetTimerManager().SetTimer(gameTime, this, &ACMP400_Prof_ProjGameMode::EndMatch, matchLength, false);
 }
 
 void ACMP400_Prof_ProjGameMode::PostLogin(APlayerController* NewPlayer)
@@ -50,6 +51,11 @@ void ACMP400_Prof_ProjGameMode::PostLogin(APlayerController* NewPlayer)
 void ACMP400_Prof_ProjGameMode::BindTime(APlayerController* NewPlayer)
 {
 	Cast<ACMP400_Prof_ProjCharacter>(NewPlayer->GetPawn())->OnScoreChange.AddUniqueDynamic(this, &ACMP400_Prof_ProjGameMode::updateScore);
+}
+
+void ACMP400_Prof_ProjGameMode::EndMatch()
+{
+	UE_LOG(LogTemp, Warning, TEXT("MATCH ENDED"));
 }
 
 void ACMP400_Prof_ProjGameMode::GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const

@@ -51,16 +51,8 @@ void ACMP400_Prof_ProjCharacter::BeginPlay()
 	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Client"), clientStarts);
 	
 
-	FTimerHandle Handle;
-	GetWorld()->GetTimerManager().SetTimer(Handle, this, &ACMP400_Prof_ProjCharacter::respawnPlayer, 1.f, false);
-
-	/*int random = FMath::RandRange(0, 2);
-	if (playerTeam == ServerTeam) {
-		SetActorLocation(serverStarts[random]->GetActorLocation());
-	}
-	if (playerTeam == ClientTeam) {
-		SetActorLocation(clientStarts[random]->GetActorLocation());
-	}*/
+	FTimerHandle respawnTimer;
+	GetWorld()->GetTimerManager().SetTimer(respawnTimer, this, &ACMP400_Prof_ProjCharacter::respawnPlayer, 1.f, false);
 }
 
 //////////////////////////////////////////////////////////////////////////// Input

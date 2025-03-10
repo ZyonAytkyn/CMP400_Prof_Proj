@@ -35,7 +35,14 @@ protected:
 	UFUNCTION()
 	void BindTime(APlayerController* NewPlayer);
 
+	UFUNCTION()
+	void EndMatch();
+
 	TArray<APlayerController*> Players;
+
+	FTimerHandle gameTime;
+
+	float matchLength = 30.0f;
 };
 
 
