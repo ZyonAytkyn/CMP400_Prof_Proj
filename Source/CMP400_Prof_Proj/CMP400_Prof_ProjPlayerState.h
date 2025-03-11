@@ -15,7 +15,15 @@ class CMP400_PROF_PROJ_API ACMP400_Prof_ProjPlayerState : public APlayerState
 	GENERATED_BODY()
 	
 public:
+	ACMP400_Prof_ProjPlayerState();
+
+	virtual void CopyProperties(class APlayerState* PlayerState);
+
+	virtual void OverrideWith(class APlayerState* PlayerState);
+
 	UPROPERTY(BlueprintReadOnly, Replicated)
 	float timerModifier = 1.0f;
+
+	UPROPERTY(BlueprintReadOnly, Replicated)
 	float healthModifier = 1.0f;
 };

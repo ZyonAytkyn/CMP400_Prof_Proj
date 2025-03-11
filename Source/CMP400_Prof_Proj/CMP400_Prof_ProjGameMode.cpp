@@ -10,7 +10,7 @@ ACMP400_Prof_ProjGameMode::ACMP400_Prof_ProjGameMode()
 	// set default pawn class to our Blueprinted character
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter"));
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
-
+	this->bUseSeamlessTravel = true;
 }
 
 void ACMP400_Prof_ProjGameMode::updateScore(int team)

@@ -51,6 +51,7 @@ void ACMP400_Prof_ProjCharacter::BeginPlay()
 	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Client"), clientStarts);
 	
 	playerState = Cast<ACMP400_Prof_ProjPlayerState>(GetPlayerState());
+	healTimerlength = healTimerlength * playerState->timerModifier;
 
 	FTimerHandle respawnTimer;
 	GetWorld()->GetTimerManager().SetTimer(respawnTimer, this, &ACMP400_Prof_ProjCharacter::respawnPlayer, 1.f, false);
@@ -106,8 +107,17 @@ void ACMP400_Prof_ProjCharacter::OnDeath()
 
 void ACMP400_Prof_ProjCharacter::Damage(float damage)
 {
+	if (!healBool) {
+		healBool = true;
+		healthBeforeDamage = Health;
+		FTimerHandle healTimer;
+		GetWorld()->GetTimerManager().SetTimer(healTimer, this, &ACMP400_Prof_ProjCharacter::HealExpired, healTimerlength, false);
+		//Update health regain bar
+	}
+
 	Health -= damage;
-	//UE_LOG(LogTemplateCharacter, Warning, TEXT("Hit Actor: %f"), Health);
+	//Update health bar
+	
 	if (Health <= 0)
 	{
 		/* Kill feed stuff, low priority
@@ -138,7 +148,21 @@ void ACMP400_Prof_ProjCharacter::respawnPlayer()
 
 void ACMP400_Prof_ProjCharacter::Heal()
 {
+	if (healBool) {
+		float tempHealth = Health * healPercentage;
+		if (tempHealth > healthBeforeDamage) {
+			Health = healthBeforeDamage;
+		}
+		else {
+			Health = tempHealth;
+		}
+		//Update health bar
+	}
+}
 
+void ACMP400_Prof_ProjCharacter::HealExpired()
+{
+	healBool = false;
 }
 
 

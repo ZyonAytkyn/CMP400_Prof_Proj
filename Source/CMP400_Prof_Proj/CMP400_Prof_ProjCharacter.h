@@ -43,14 +43,14 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"), Replicated)
 	float Health = 100.f;
 
-	float healthBeforeDamage = 100.f;
-
 	TArray<AActor*> serverStarts;
 	TArray<AActor*> clientStarts;
 
 	ACMP400_Prof_ProjPlayerState* playerState;
-
 	bool healBool = false;
+	float healthBeforeDamage = 100.f;
+	float healTimerlength = 3.f;
+	float healPercentage = 20.f; //percentage to heal of difference between current health and healthbeforedamage
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
@@ -110,5 +110,7 @@ public:
 	void respawnPlayer();
 
 	void Heal();
+
+	void HealExpired();
 };
 
