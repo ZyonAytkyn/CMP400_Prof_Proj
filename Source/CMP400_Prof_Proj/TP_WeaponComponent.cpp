@@ -86,6 +86,7 @@ void UTP_WeaponComponent::Fire()
 				if (hitCharacter) {
 					UE_LOG(LogWeaponComponent, Warning, TEXT("HIT CAST SUCCESS"));
 					hitCharacter->Damage(10);
+					Character->Heal();
 				}
 				else {
 					UE_LOG(LogWeaponComponent, Warning, TEXT("HIT CAST FAIL"));

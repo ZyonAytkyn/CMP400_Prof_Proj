@@ -20,7 +20,7 @@ public:
 	UFUNCTION()
 	void updateScore(int team);
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"), Replicated)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"), Replicated)
 	TArray<int> teamScore = TArray<int>{ 0,0 };
 
 	bool HasWaited = false;

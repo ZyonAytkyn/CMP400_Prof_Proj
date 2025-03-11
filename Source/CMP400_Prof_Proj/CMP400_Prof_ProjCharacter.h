@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
+#include "CMP400_Prof_ProjPlayerState.h"
 #include "CMP400_Prof_ProjCharacter.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnAttributeChanged, int, team);
@@ -40,10 +41,16 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 	UInputAction* MoveAction;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"), Replicated)
-	float Health = 100;
+	float Health = 100.f;
+
+	float healthBeforeDamage = 100.f;
 
 	TArray<AActor*> serverStarts;
 	TArray<AActor*> clientStarts;
+
+	ACMP400_Prof_ProjPlayerState* playerState;
+
+	bool healBool = false;
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
@@ -101,5 +108,7 @@ public:
 	void Damage(float damage);
 
 	void respawnPlayer();
+
+	void Heal();
 };
 

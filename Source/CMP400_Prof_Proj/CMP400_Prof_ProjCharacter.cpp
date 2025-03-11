@@ -50,6 +50,7 @@ void ACMP400_Prof_ProjCharacter::BeginPlay()
 	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Server"), serverStarts);
 	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Client"), clientStarts);
 	
+	playerState = Cast<ACMP400_Prof_ProjPlayerState>(GetPlayerState());
 
 	FTimerHandle respawnTimer;
 	GetWorld()->GetTimerManager().SetTimer(respawnTimer, this, &ACMP400_Prof_ProjCharacter::respawnPlayer, 1.f, false);
@@ -133,6 +134,11 @@ void ACMP400_Prof_ProjCharacter::respawnPlayer()
 	if (playerTeam == ClientTeam) {
 		SetActorLocation(clientStarts[random]->GetActorLocation());
 	}
+}
+
+void ACMP400_Prof_ProjCharacter::Heal()
+{
+
 }
 
 
