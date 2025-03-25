@@ -50,9 +50,6 @@ void ACMP400_Prof_ProjCharacter::BeginPlay()
 	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Server"), serverStarts);
 	UGameplayStatics::GetAllActorsOfClassWithTag(GetWorld(), APlayerStart::StaticClass(), TEXT("Client"), clientStarts);
 	
-	playerState = Cast<ACMP400_Prof_ProjPlayerState>(GetPlayerState());
-	healTimerlength = healTimerlength * playerState->timerModifier;
-
 	FTimerHandle respawnTimer;
 	GetWorld()->GetTimerManager().SetTimer(respawnTimer, this, &ACMP400_Prof_ProjCharacter::respawnPlayer, 1.f, false);
 }
@@ -110,8 +107,20 @@ void ACMP400_Prof_ProjCharacter::Damage(float damage)
 	if (!healBool) {
 		healBool = true;
 		healthBeforeDamage = Health;
+
+		//tempPlayerState = GetPlayerState();
+		playerState = Cast<ACMP400_Prof_ProjPlayerState>(GetPlayerState());
+		if (playerState) {
+			UE_LOG(LogTemplateCharacter, Warning, TEXT("CAST SUCCESS"));
+		}
+		else {
+			UE_LOG(LogTemplateCharacter, Warning, TEXT("CAST FAIL"));
+		}
+		healTimerlength = healTimerlength * playerState->timerModifier;
+
 		FTimerHandle healTimer;
 		GetWorld()->GetTimerManager().SetTimer(healTimer, this, &ACMP400_Prof_ProjCharacter::HealExpired, healTimerlength, false);
+
 		//Update health regain bar
 	}
 
@@ -197,4 +206,5 @@ void ACMP400_Prof_ProjCharacter::GetLifetimeReplicatedProps(TArray< FLifetimePro
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ACMP400_Prof_ProjCharacter, Health);
 	DOREPLIFETIME(ACMP400_Prof_ProjCharacter, teamScore);
+	DOREPLIFETIME(ACMP400_Prof_ProjCharacter, playerState);
 }

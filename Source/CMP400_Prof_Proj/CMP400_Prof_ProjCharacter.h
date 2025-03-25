@@ -46,7 +46,9 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 	TArray<AActor*> serverStarts;
 	TArray<AActor*> clientStarts;
 
+	APlayerState* tempPlayerState;
 	ACMP400_Prof_ProjPlayerState* playerState;
+
 	bool healBool = false;
 	float healthBeforeDamage = 100.f;
 	float healTimerlength = 3.f;
