@@ -49,7 +49,10 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 	APlayerState* tempPlayerState;
 	ACMP400_Prof_ProjPlayerState* playerState;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	bool healBool = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	float healthBeforeDamage = 100.f;
 	float healTimerlength = 3.f;
 	float healPercentage = 20.f; //percentage to heal of difference between current health and healthbeforedamage

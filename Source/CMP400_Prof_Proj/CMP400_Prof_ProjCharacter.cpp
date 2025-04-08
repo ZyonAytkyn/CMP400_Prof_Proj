@@ -133,6 +133,8 @@ void ACMP400_Prof_ProjCharacter::Damage(float damage)
 		FOutputDeviceNull ar;
 		this->CallFunctionByNameWithArguments(TEXT("Dead_BP"), ar, NULL, true);*/
 
+		healBool = false;
+
 		if (playerTeam == ServerTeam) {
 			OnScoreChange.Broadcast(1);
 		}
