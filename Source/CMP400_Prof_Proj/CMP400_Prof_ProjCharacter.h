@@ -41,7 +41,7 @@ class ACMP400_Prof_ProjCharacter : public ACharacter
 	UInputAction* MoveAction;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"), Replicated)
-	float Health = 100.f;
+	float Health = 100;
 
 	TArray<AActor*> serverStarts;
 	TArray<AActor*> clientStarts;
@@ -117,5 +117,7 @@ public:
 	void Heal();
 
 	void HealExpired();
+
+	void roundReset();
 };
 

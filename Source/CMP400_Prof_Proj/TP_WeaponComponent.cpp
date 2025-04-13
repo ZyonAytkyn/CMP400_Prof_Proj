@@ -239,3 +239,8 @@ void UTP_WeaponComponent::EndPlay(const EEndPlayReason::Type EndPlayReason)
 		}
 	}
 }
+
+void UTP_WeaponComponent::roundReset()
+{
+	//Reset ammo in blueprints
+}

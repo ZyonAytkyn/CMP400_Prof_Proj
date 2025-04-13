@@ -160,7 +160,7 @@ void ACMP400_Prof_ProjCharacter::respawnPlayer()
 void ACMP400_Prof_ProjCharacter::Heal()
 {
 	if (healBool) {
-		float tempHealth = Health * healPercentage;
+		float tempHealth = Health + ((Health / 100) * healPercentage);
 		if (tempHealth > healthBeforeDamage) {
 			Health = healthBeforeDamage;
 		}
@@ -176,6 +176,18 @@ void ACMP400_Prof_ProjCharacter::HealExpired()
 	healBool = false;
 }
 
+void ACMP400_Prof_ProjCharacter::roundReset()
+{
+	Health = 100;
+	healBool = false;
+	healthBeforeDamage = 100.f;
+
+	//Might not want these here
+	healTimerlength = 3.f;
+	healPercentage = 20.f;
+
+	respawnPlayer();
+}
 
 void ACMP400_Prof_ProjCharacter::Move(const FInputActionValue& Value)
 {

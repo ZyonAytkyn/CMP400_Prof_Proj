@@ -55,6 +55,7 @@ void ACMP400_Prof_ProjGameMode::BindTime(APlayerController* NewPlayer)
 
 void ACMP400_Prof_ProjGameMode::EndMatch()
 {
+	OnRoundEnd.Broadcast();
 	UE_LOG(LogTemp, Warning, TEXT("MATCH ENDED"));
 }
 
@@ -62,4 +63,5 @@ void ACMP400_Prof_ProjGameMode::GetLifetimeReplicatedProps(TArray< FLifetimeProp
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(ACMP400_Prof_ProjGameMode, teamScore);
+	DOREPLIFETIME(ACMP400_Prof_ProjGameMode, roundEnded);
 }

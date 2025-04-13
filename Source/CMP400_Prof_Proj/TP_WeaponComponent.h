@@ -62,6 +62,8 @@ protected:
 	UFUNCTION()
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
+	void roundReset();
+
 private:
 	/** The Character holding this weapon*/
 	ACMP400_Prof_ProjCharacter* Character;

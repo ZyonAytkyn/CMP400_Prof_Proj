@@ -9,6 +9,8 @@
 #include "CMP400_Prof_ProjCharacter.h"
 #include "CMP400_Prof_ProjGameMode.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnRoundEnd);
+
 UCLASS(minimalapi) 
 class ACMP400_Prof_ProjGameMode : public AGameModeBase
 {
@@ -24,6 +26,9 @@ public:
 	TArray<int> teamScore = TArray<int>{ 0,0 };
 
 	bool HasWaited = false;
+
+	UPROPERTY(BlueprintAssignable, Category = "Attributes")
+	FOnRoundEnd OnRoundEnd;
 
 protected:
 	UFUNCTION()
@@ -43,6 +48,9 @@ protected:
 	FTimerHandle gameTime;
 
 	float matchLength = 30.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Replicated)
+	bool roundEnded = false;
 };
 
 
