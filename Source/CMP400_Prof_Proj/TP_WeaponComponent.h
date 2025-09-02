@@ -54,6 +54,9 @@ public:
 	UFUNCTION(Server, Reliable)
 	void FireServer(FVector StartPos, FVector EndPos);
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FVector hitLocation;
+
 protected:
 	UFUNCTION()
 	virtual void BeginPlay() override;
@@ -70,5 +73,5 @@ private:
 	ACMP400_Prof_ProjCharacter* hitCharacter;
 
 	AActor* owner;
-	float weaponRange = 2000;
+	float weaponRange = 20000;
 };

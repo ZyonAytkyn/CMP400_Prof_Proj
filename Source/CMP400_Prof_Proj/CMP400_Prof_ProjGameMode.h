@@ -47,7 +47,8 @@ protected:
 
 	FTimerHandle gameTime;
 
-	float matchLength = 30.0f;
+	//float matchLength = 300.0f;
+	float matchLength = 43200.0f; //12 HOURS!!!!! FOR GRAD SHOW!!!!!
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Replicated)
 	bool roundEnded = false;

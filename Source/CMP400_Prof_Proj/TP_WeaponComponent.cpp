@@ -65,8 +65,9 @@ void UTP_WeaponComponent::Fire()
 	UCameraComponent* camRef = Character->GetFirstPersonCameraComponent();
 	FVector startPos = camRef->GetComponentLocation();
 	FVector endPos = startPos + (camRef->GetForwardVector() * weaponRange);
+	hitLocation = FVector(0, 0, 0);
 
-	DrawDebugLine(GetWorld(), startPos, endPos, FColor::Red, false, 5.0f);
+	//DrawDebugLine(GetWorld(), startPos, endPos, FColor::Red, false, 5.0f);
 
 	if (owner->HasAuthority()) {
 		FHitResult hitResult;
@@ -91,6 +92,9 @@ void UTP_WeaponComponent::Fire()
 				else {
 					UE_LOG(LogWeaponComponent, Warning, TEXT("HIT CAST FAIL"));
 				}
+			}
+			if (hitResult.bBlockingHit) {
+				hitLocation = hitResult.Location;
 			}
 		}
 	}
